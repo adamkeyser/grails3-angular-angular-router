@@ -1,4 +1,4 @@
-# grails3-angular-example
+# grails3-angular-example with angular router
 Using bower plugin to install angularjs and bootstrap and product a sample welcome page with functional test.
 
 # Building Project
