@@ -1,12 +1,6 @@
 # grails3-angular-example with angular router
 Using bower plugin to install angularjs and bootstrap and product a sample welcome page with functional test.
 
-# Building Project
-Before building project, be sure you have the following items installed:
-* npm
-* bower
-* Firefox
-
 # How do I configure my project to use the asset pipeline?
 Add the following to your build gradle under the dependencies directory:
    ```
