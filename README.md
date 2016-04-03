@@ -1,4 +1,4 @@
-# grails3-angular-example
+# grails3-angular-example with angular router
 Using bower plugin to install angularjs and bootstrap and product a sample welcome page with functional test.
 
 # Building Project
@@ -7,6 +7,6 @@ Before building project, be sure you have the following items installed:
 * bower
 * Firefox
 
-To build the project and run the functional tests, run:
-`./gradlew bowerInstall check`
+To build the project and run:
+`./gradlew bootRun
 
