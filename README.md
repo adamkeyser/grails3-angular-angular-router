@@ -9,23 +9,26 @@ Before building project, be sure you have the following items installed:
 
 # How do I configure my project to use the asset pipeline?
 Add the following to your build gradle under the dependencies directory:
-   ```javascript
+   ```
    assets "com.craigburke.angular:angular-template-asset-pipeline:2.2.7"
    ```
 
-Now, you'll want to create a templates directory in grails-app 
+Create a templates directory in grails-app 
 * grails-app/assets/javascripts/app/templates
 * html files you add here should have the following format 
-```javascript 
+```
 helloStranger.tpl.html
 ```
 
-Add your templates there. When you reference them in your router code IGNORE the templates portion of the directory AND the tpl 
+Add your templates there. When you reference them in your router code ignore both the templates portion of the directory and the tpl 
 ```
 templateUrl: '/app/helloStranger.html',
 ```
 
-
-To build the project and run:
+#To build the project and run:
+```
 ./gradlew bootRun
+```
+
+
 
